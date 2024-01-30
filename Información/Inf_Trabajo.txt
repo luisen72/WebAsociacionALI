@@ -24,6 +24,11 @@ Diversos hechos médicos han querido demostrar de manera “científica” la cr
 
 
 Antartida
+<<<<<<< HEAD
+>>>>>>> principal
+=======
+
+>>>>>>> refs/remotes/origin/desarrollo-luis
 
 Mediados del siglo XIX: en una de tantas conferencias de su triunfal gira, el inglés Samuel Rowbotham defiende con ahínco la hipótesis de que la Tierra es un círculo plano. En su peculiar modelo del mundo, el Polo Norte está en el centro del mapa y la Tierra se extiende hasta unos confines que la separan del espacio por una muralla de hielo, la Antártida, un continente que según él tiene forma de anillo y rodea a todos los demás continentes, evitando que los océanos caigan por los bordes y se viertan en el espacio.
 Masoneria
