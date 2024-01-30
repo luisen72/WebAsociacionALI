@@ -44,3 +44,11 @@ header a:hover:visited{
     text-decoration: underline;
     color: white;
 }
+
+#bienvenida {
+    text-align: center;
+}
+
+#bienvenida h2 {
+    font-size: 35px;
+}
