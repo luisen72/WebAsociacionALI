@@ -1,12 +1,18 @@
+html{
+    background-image: url(https://www.shutterstock.com/image-vector/ancient-mystic-egyptian-symbol-isolated-600nw-2021006483.jpg);
+
+}
+
 body {
     margin: 0px;
+    background-color: rgb(31, 27, 20 ,0.7);
 }
 
 header {
     position: sticky;
     top: 0px;
     height: 110px;
-    background-color: grey;
+    background-color: rgb(31, 27, 20);
     
 }
 
@@ -45,10 +51,64 @@ header a:hover:visited{
     color: white;
 }
 
+.general {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 #bienvenida {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #bienvenida h2 {
-    font-size: 35px;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 45px;
+    margin-bottom: 30px;
 }
+
+#contenido {
+    margin-top: 50px;
+    
+}
+
+table img{
+    height: 370px;
+    width: 700px;
+}
+
+table {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+thead {
+    font-size: 40px;
+    background-color: burlywood;
+    color: black;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+tbody {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(31, 27, 20);
+    color: white;
+    height: 50px;
+}
+
+footer p {
+    float: right;
+    margin-right: 10px;
+}
+
