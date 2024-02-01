@@ -50,3 +50,15 @@ header a:hover:visited{
     text-decoration: underline;
     color: white;
 }
+
+footer {
+    background-color: rgb(31, 27, 20);
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+footer p {
+    float: right;
+    margin-right: 10px;
+}
