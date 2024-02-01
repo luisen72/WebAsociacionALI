@@ -26,7 +26,70 @@
         </nav>
         
     </header>
-
+    <table>
+        <tr>
+            <td><label for="Nombre">Nombre:</label></td>
+            <td><input value="Nombre" type="text" size="30" requiered></td>
+        </tr>
+        <tr>
+            <td><label for="Apellidos">Apellidos:</label></td>
+            <td><input value="Apellidos" type="text" size="30" requiered></td>
+        </tr>
+        <tr>
+            <td><label for="Documento de identidad">Número de documento de identidad(Dni/Nie)</label></td>
+            <td><input value="Docuemnto de identidad" type="number" required></td>
+        </tr>
+        <tr>
+            <td><label for="Correo electrónico">Correo electrónico</label></td>
+            <td><input value="Correo electrónico" type="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="Estado civil">Estado cívil</label></td>
+            <td><input type="radio" name="Estado civil" value="Soltero" checked >Soltero</td>
+            <td><input type="radio" name="Estado civil" value="Casado">Casado</td>
+            <td><input type="radio" name="Estado civil" value="Divorciado">Divorciado</td>
+        </tr>
+        <tr>
+            <td><label for="Teléfono">Teléfono</label></td>
+            <td><input  type="tel" maxlength="9" placeholder="677421253"></td><!--Poner el +34-->
+        </tr>
+        <tr>
+            <td><label for="Disponibilidad">Disponibilidad </label>></td>
+            <td><input type=""></td><!--opciones-->
+        </tr>
+        <tr>
+            <td><label for="Motivación">Elige una opción por la que te quieres meter en esta asocicación</label></td>
+                
+            <td><select name="motivaciones" id="Motivación">
+                    <option value="Participar en actividades">Participar en actividades</option>
+                    <option value="Preparar actividades">Preparar actividades</option>
+                    <option value="Acompañar a un menor">Acompañar a un menor</option>
+                    <option value="Curiosidad por la asociación">Curiosidad por la asociación</option>
+                    <option value="Debates">Debates</option>
+                    <option value="Viajes">Viajes</option>
+                    <option value="Experiencias">Experiencias</option>
+                    <option value="Otros">Otros </option></td><!--HAy que meter para que puedan comentar-->
+        </tr>
+        <tr>
+            <td><label for="observaciones">Observaciones</label></td>
+            <td><textarea name="observaciones" rows="1" cols="30" placeholder="Comentario"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" required>
+                <label for="checkbox">Aceptas las condiciones de la asociación</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                <input type="submit" value="Enviar" >
+                <input type="reset" value="Reinicio">
+            </td><!--El formulario debe recopilar la información insertada y enviarla por correo a una dirección llamada-->
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
 
     <footer>
