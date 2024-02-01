@@ -51,6 +51,23 @@ header a:hover:visited{
     color: white;
 }
 
+section{
+    color: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+h2, h1{
+    font-family: 'Sixtyfour', sans-serif;
+    color: #7dcf7d;
+}
+.fotos{
+    text-align: center;
+}
+=======
+
 footer {
     background-color: rgb(31, 27, 20);
     color: white;
@@ -62,3 +79,4 @@ footer p {
     float: right;
     margin-right: 10px;
 }
+
