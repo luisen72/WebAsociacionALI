@@ -50,3 +50,15 @@ header a:hover:visited{
     text-decoration: underline;
     color: white;
 }
+section{
+    color: aqua;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+h2, h1{
+    font-family: 'Sixtyfour', sans-serif;
+    color: #7dcf7d;
+}
