@@ -51,6 +51,7 @@ header a:hover:visited{
     color: white;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 section{
     color: aqua;
     margin-left: 30px;
@@ -63,6 +64,8 @@ h2, h1{
     font-family: 'Sixtyfour', sans-serif;
     color: #7dcf7d;
 =======
+=======
+>>>>>>> principal
 
 footer {
     background-color: rgb(31, 27, 20);
@@ -74,5 +77,8 @@ footer {
 footer p {
     float: right;
     margin-right: 10px;
+<<<<<<< HEAD
+>>>>>>> principal
+=======
 >>>>>>> principal
 }
