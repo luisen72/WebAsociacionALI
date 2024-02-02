@@ -26,22 +26,26 @@
             <a href="contacto.html" target="_self">Contactanos</a>
         </nav>
     </header>
+
+
+    <form>
     <table>
         <tr>
             <td><label for="Nombre">Nombre:</label></td>
-            <td><input value="Nombre" type="text" size="30" requiered></td>
+            <td><input id="Nombre" type="text" size="20" placeholder="Nombre" required></td>
         </tr>
         <tr>
             <td><label for="Apellidos">Apellidos:</label></td>
-            <td><input value="Apellidos" type="text" size="30" requiered></td>
+            <td><input id="Apellidos" type="text" size="20" placeholder="Apellidos" required></td>
         </tr>
         <tr>
-            <td><label for="Documento de identidad">Número de documento de identidad(Dni/Nie)</label></td>
-            <td><input value="Docuemnto de identidad" type="number" required></td>
+            <td><label for="Documento de identidad">Número de documento de identidad</label></td>
+            <td><input id="Docuemnto de identidad" type="text" maxlength="9" placeholder="DNI/NIe" pattern="[0-9]{8}[a-zA-Z]{1}" required></td>
         </tr>
         <tr>
             <td><label for="Correo electrónico">Correo electrónico</label></td>
-            <td><input value="Correo electrónico" type="email" required></td>
+            <td><input id="Correo electrónico" type="email" placeholder="Gmail" required></td>
+
         </tr>
         <tr>
             <td><label for="Estado civil">Estado cívil</label></td>
@@ -79,17 +83,16 @@
                 <label for="checkbox">Aceptas las condiciones de la asociación</label></td>
         </tr>
         <tr>
-            <td colspan="2" >
-                <input type="submit" value="Enviar" >
-                <input type="reset" value="Reinicio">
+
+
+            <td>
+                <input type="submit" name="Enviar" value="Enviar" >
+                <input type="reset" name="Reinicio" value="Reinicio">
             </td><!--El formulario debe recopilar la información insertada y enviarla por correo a una dirección llamada-->
-            
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
         </tr>
     </table>
+    </form>
+
 
 
     <footer>
