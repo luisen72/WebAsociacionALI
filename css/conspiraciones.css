@@ -50,8 +50,9 @@ header a:hover:visited{
     text-decoration: underline;
     color: white;
 }
+
 section{
-    color: aqua;
+    color: white;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -65,3 +66,17 @@ h2, h1{
 .fotos{
     text-align: center;
 }
+
+
+footer {
+    background-color: rgb(31, 27, 20);
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+footer p {
+    float: right;
+    margin-right: 10px;
+}
+
