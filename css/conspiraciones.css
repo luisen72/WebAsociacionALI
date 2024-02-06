@@ -1,6 +1,7 @@
 section{
     color: white;
 }
+
 section{
     color: aqua;
     margin-left: 100px;
@@ -16,3 +17,16 @@ h2, h1{
 .fotos{
     text-align: center;
 }
+
+footer {
+    background-color: rgb(31, 27, 20);
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+footer p {
+    float: right;
+    margin-right: 10px;
+}
+
