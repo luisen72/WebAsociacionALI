@@ -13,16 +13,14 @@
     text-align: center;
 }
 #Enviar{
-    border-color: blue;
+    border-color: gray;
     border-width: 2px;
 }
 #Reinicio{
-    border-color: blue;
+    border-color: gray;
     border-width: 2px;
 }
-table,tr,td{
-    border: 3px solid aqua;
-}
+
 table,tfoot{
     text-align: center;
 }
