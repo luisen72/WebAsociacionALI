@@ -1,18 +1,18 @@
 html{
-    background-image: url(https://www.shutterstock.com/image-vector/ancient-mystic-egyptian-symbol-isolated-600nw-2021006483.jpg);
+    background-image: url(https://www.shutterstock.com/image-vector/seamless-alien-pattern-hand-drawn-600nw-1928885375.jpg);
 
 }
 
 body {
     margin: 0px;
-    background-color: rgb(31, 27, 20 ,0.7);
+    background-color: rgb(0, 0, 0 ,0.7);
 }
 
 header {
     position: sticky;
     top: 0px;
     height: 110px;
-    background-color: rgb(31, 27, 20);
+    background-color: black;
     
 }
 
@@ -31,7 +31,7 @@ header img, #titulo, header nav {
     display: inline-block;
 }
 
-header a {
+header nav a {
     margin-left: 50px;
     text-decoration: solid;
     color: #7dcf7d;
@@ -52,7 +52,7 @@ header a:hover:visited{
 }
 
 footer {
-    background-color: rgb(31, 27, 20);
+    background-color: black;
     color: white;
     height: 50px;
     margin-top: 25px;
@@ -63,30 +63,19 @@ footer p {
     float: right;
     margin-right: 10px;
 }
-table {
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 130px;
-    padding-bottom: 50px;
+
+header #cambioCss {
+    height: 20px;
+    width: 20px;
 }
 
-thead {
-    font-size: 40px;
-    background-color: yellow;
-    color: white;
+button {
+    position: fixed;
+    right: 15px;
+    top: 25px;
+    background-color: lightyellow;
 }
 
-table, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 700px;
-}
-
-tbody {
-    background-color: chocolate;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-section{
-    margin-left: 200px;
-    
+button p {
+    margin: 5px;
 }

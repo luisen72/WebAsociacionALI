@@ -63,30 +63,19 @@ footer p {
     float: right;
     margin-right: 10px;
 }
-table {
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 130px;
-    padding-bottom: 50px;
+
+header #cambioCss {
+    height: 20px;
+    width: 20px;
 }
 
-thead {
-    font-size: 40px;
-    background-color: yellow;
-    color: white;
+button {
+    position: fixed;
+    right: 15px;
+    top: 25px;
+    background-color: lightyellow;
 }
 
-table, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 700px;
-}
-
-tbody {
-    background-color: chocolate;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-section{
-    margin-left: 200px;
-    
+button p {
+    margin: 5px;
 }
