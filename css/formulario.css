@@ -1,1 +1,26 @@
 
+.registro{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 500px;
+    color: white;
+   
+}
+.cuadradoFormulario{
+    border-color: aqua;
+    border-width: 2px;
+    margin: 15px 0;
+    text-align: center;
+}
+#Enviar{
+    border-color: gray;
+    border-width: 2px;
+}
+#Reinicio{
+    border-color: gray;
+    border-width: 2px;
+}
+
+table,tfoot{
+    text-align: center;
+}
