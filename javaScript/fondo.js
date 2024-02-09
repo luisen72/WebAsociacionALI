@@ -17,6 +17,7 @@ function cambioCss() {
         icono[2].src = "Imagenes/icono.png"
         icono[3].src = "Imagenes/iconoIlu.png"
         icono[4].innerHTML = "Modo Iluminati"
+
         modo = false
     }
     
