@@ -1,0 +1,19 @@
+p{
+    color: white;
+}
+.imgIvan{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+    height:400px;
+    width: 400px;
+}
+.imgAntonio{
+    position: fixed;
+    height:400px;
+    width: 400px;
+}
+.imgLuis{
+    height:400px;
+    width: 400px;
+}
