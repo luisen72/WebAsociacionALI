@@ -1,7 +1,6 @@
-html{
-    background-image: url(https://www.shutterstock.com/image-vector/ancient-mystic-egyptian-symbol-isolated-600nw-2021006483.jpg);
 
-}
+
+
 
 body {
     margin: 0px;
@@ -89,4 +88,29 @@ tbody {
 section{
     margin-left: 200px;
     
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -92px;
+  
+  position: absolute;
+  
+
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  animation: move 3s alternate infinite;
+  background: green url("");
+  background-size: 50px;
+  offset-path: path("m 0 0 v 650 ");
+}
+
+@keyframes move {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
 }
