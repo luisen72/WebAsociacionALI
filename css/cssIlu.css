@@ -1,5 +1,6 @@
 html{
     background-image: url(https://www.shutterstock.com/image-vector/ancient-mystic-egyptian-symbol-isolated-600nw-2021006483.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif
 
 }
 
@@ -24,17 +25,17 @@ header img {
     font-family: 'Sixtyfour', sans-serif;
     position: absolute;
     top: 10px;
-    color: #7dcf7d;
+    color: lightyellow;
 }
 
 header img, #titulo, header nav {
     display: inline-block;
 }
 
-header a {
+header nav a {
     margin-left: 50px;
     text-decoration: solid;
-    color: #7dcf7d;
+    color: lightyellow;
 }
 
 header a:hover {
@@ -65,17 +66,19 @@ footer p {
 }
 
 header #cambioCss {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 button {
     position: fixed;
     right: 15px;
     top: 25px;
-    background-color: lightyellow;
+    background-color: #7dcf7d;
+    padding-top: 5px;
 }
 
 button p {
     margin: 5px;
+    margin-top: 1px;
 }
