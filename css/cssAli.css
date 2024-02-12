@@ -86,3 +86,48 @@ button p {
     margin: 5px;
     margin-top: 1px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+footer p {
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*Conspiraciones*/
+
+#encabezado{
+    border: #7dcf7d 1px solid;
+}
+
+.conspiraciones h2, .conspiraciones h1{
+    font-family: 'Sixtyfour', sans-serif;
+    color: #7dcf7d;
+}
+
+/*Contacto*/
+
+#correo a {
+    color: #7dcf7d;
+}
+
+#formulario form {
+    text-align: center;
+    border: 1px solid white;
+    width: 400px;
+    padding: 15px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 430px;
+}
+
+#formulario input , #formulario textarea{
+    border-radius: 10px;
+    border-color: #7dcf7d;
+}

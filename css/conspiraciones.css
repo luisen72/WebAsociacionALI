@@ -4,26 +4,6 @@ section{
     margin-right: 100px;
 }
 
-
-
-h2, h1{
-    font-family: 'Sixtyfour', sans-serif;
-    color: #7dcf7d;
-}
-
-footer {
-    background-color: rgb(31, 27, 20);
-    color: white;
-    height: 50px;
-    margin-top: 25px;
-}
-
-footer p {
-    float: right;
-    margin-right: 10px;
-}
-
-
 section p, .fotos {
     display: inline-block;
     margin-top: 16px;
@@ -68,6 +48,3 @@ h2 {
     display: inline;
 }
 
-#encabezado{
-    border: #7dcf7d 1px solid;
-}
