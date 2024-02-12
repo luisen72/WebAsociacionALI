@@ -1,5 +1,4 @@
-html{
-    background-image: url(https://www.shutterstock.com/image-vector/ancient-mystic-egyptian-symbol-isolated-600nw-2021006483.jpg);
+;
 
 
 body {
@@ -103,11 +102,14 @@ section{
 
 .box {
   width: 50px;
-  height: 50px;
-  animation: move 3s alternate infinite;
-  background: green url("");
-  background-size: 50px;
-  offset-path: path("m 0 0 v 650 ");
+  height: 110px;
+  
+  animation: move 3s  infinite;
+  background-image: url("../Imagenes/platillo.png");
+  background-size: 70px;
+  offset-path: path("m  0 0 v 650 ");
+  
+  animation-timing-function: ease-in;
 }
 
 @keyframes move {
