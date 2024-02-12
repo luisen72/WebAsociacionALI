@@ -8,7 +8,11 @@ function cambioCss() {
         icono[1].href = "css/cssIlu.css"
         icono[2].src = "Imagenes/iconoIlu.png"
         icono[3].src = "Imagenes/icono.png"
+
         icono[4].outerText = "Modo UFO"
+
+        icono[4].innerHTML = "Modo UFO"
+ principal
         modo = true
 
     } else if (modo){
@@ -16,7 +20,12 @@ function cambioCss() {
         icono[1].href = "css/cssAli.css"
         icono[2].src = "Imagenes/icono.png"
         icono[3].src = "Imagenes/iconoIlu.png"
+ HEAD
         icono[4].outerText = "Modo Iluminati"
+
+        icono[4].innerHTML = "Modo Iluminati"
+
+ principal
         modo = false
     }
     
