@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Simbolitos;
+    src: url(Webdings-Regular.ttf);
+}
+
 html{
     background-image: url(https://www.shutterstock.com/image-vector/seamless-alien-pattern-hand-drawn-600nw-1928885375.jpg);
     font-family: Georgia, 'Times New Roman', Times, serif
