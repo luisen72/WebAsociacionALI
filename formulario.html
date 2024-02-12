@@ -243,9 +243,127 @@
                     <option class="opciones" value="Experiencias">Experiencias</option>
                     <option class="opciones" value="Otros">Otros </option>
             </td><!--HAy que meter para que puedan comentar-->
+
         </tr>
         <tr>
             <td>
+                <label for="observaciones">Observaciones</label>
+            </td>
+            <td>
+                <textarea name="observaciones" id="observaciones" rows="1" cols="20" placeholder="Comentario" class="cuadradoFormulario"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox"id="checkbox"  required>
+                <label  for="checkbox">Aceptas las condiciones de la asociación</label>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="Enviar" value="Enviar" onclick="enviarFormulario()" >
+                    <input type="reset" id="Reinicio" value="Reinicio">
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </form>
+
+
+    <form action="mailto:admin@asociacion.org" method="post" >
+    <table class="registro">
+        <tbody>
+        <tr>
+            <td>
+                <label for="Nombre">Nombre:</label>
+            </td>
+            <td>
+                <input id="Nombre" type="text" size="20" placeholder="Nombre" class="cuadradoFormulario" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Apellidos">Apellidos:</label>
+            </td>
+            <td>
+                <input id="Apellidos" type="text" size="20" placeholder="Apellidos" class="cuadradoFormulario" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="DNI">Número de documento de identidad</label>
+            </td>
+            <td>
+                <input id="DNI" type="text" maxlength="9" placeholder="DNI/NIe" pattern="[0-9]{8}[A-Z]{1}" class="cuadradoFormulario" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gmail">Correo electrónico</label>
+            </td>
+            <td>
+                <input id="Gmail" type="email" placeholder="Gmail" class="cuadradoFormulario" required>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="Estado ">Estado cívil</label>
+            </td>
+            <td>
+                <input type="radio" name="Estado" value="Soltero" class="estado" checked >Soltero
+                <input type="radio" name="Estado" value="Casado" class="estado">Casado
+                <input type="radio" name="Estado" value="Divorciado" class="estado">Divorciado
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Teléfono">Teléfono</label>
+            </td>
+            <td>
+                <select name="numerosPaises" id="numeroPais" class="cuadradoFormulario">
+                    <option value="España" selected>+34</option>
+                    <option value="Estados Unidos">+1</option>
+                    <option value="México">+52</option>
+                    <option value="Colombia">+57</option>
+                    
+                <input  id="Teléfono" type="tel" maxlength="9" minlength="9" placeholder="677421253" class="cuadradoFormulario">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Disponibilidad">Disponibilidad </label>
+            </td>
+            <td>
+                <input type="" class="cuadradoFormulario">
+            </td><!--opciones/ se utiliza con multiple-->
+        </tr>
+        <tr>
+            <td>
+                <label for="Motivación">Elige una opción por la que te quieres meter en esta asocicación</label><<<<<<<
+            </td>
+                
+            <td>
+                <select name="motivaciones" id="Motivación" class="cuadradoFormulario" >
+                    <option class="opciones" value="Participar en actividades" >Participar en actividades</option>
+                    <option class="opciones" value="Preparar actividades">Preparar actividades</option>
+                    <option class="opciones" value="Acompañar a un menor">Acompañar a un menor</option>
+                    <option class="opciones" value="Curiosidad por la asociación">Curiosidad por la asociación</option>
+                    <option class="opciones" value="Debates">Debates</option>
+                    <option class="opciones" value="Viajes">Viajes</option>
+                    <option class="opciones" value="Experiencias">Experiencias</option>
+                    <option class="opciones" value="Otros">Otros </option>
+            </td><!--HAy que meter para que puedan comentar-->
+        </tr>
+        <tr>
+            <td>
+
+        </tr>
+        <tr>
+            <td>
+
                 <label for="observaciones">Observaciones</label>
             </td>
             <td>
