@@ -116,3 +116,31 @@ section{
   0% { offset-distance: 0%; }
   100% { offset-distance: 100%; }
 }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1492px;
+    
+    position: absolute;
+    
+  
+  }
+  
+  .box2 {
+    width: 100px;
+    height: 100px;
+    
+    animation: move 3s  infinite;
+    background-image: url("../Imagenes/volcan.png");
+    background-size: 100px;
+    offset-path: path("m  0 0 v -620 ");
+    margin-top: 620px;
+    animation-timing-function: ease-in;
+  }
+  
+  @keyframes move {
+    0% { offset-distance: 0%; }
+    100% { offset-distance: 100%; }
+  }
+  
