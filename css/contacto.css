@@ -18,22 +18,10 @@ div {
     display: inline-block;
 }
 
-section a {
-    color: #7dcf7d;
-}
+
 
 #name {
     margin-left: 63px;
-}
-
-form {
-    text-align: center;
-    border: 1px solid white;
-    width: 400px;
-    padding: 15px;
-    background-color: rgb(31, 27, 20);
-    display: inline-block;
-    margin-left: 430px;
 }
 
 legend {
