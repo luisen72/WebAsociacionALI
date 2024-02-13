@@ -29,15 +29,47 @@ main{
 .imgIvan{
     height:200px;
     width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
+    /*border: 5px solid rgb(31, 212, 7);*/
 }
 .imgAntonio{
     height:200px;
     width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
 }
 
 .imgLuis{
     height:200px;
     width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
+}
+.seccionLuis{
+    position: absolute;
+    margin-top: -299px;
+    margin-left: 900px;
+    }
+/*Tamaño de la imagen*/
+.imgIvan:hover:not(.active){
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(31, 212, 7);
+}
+.imgAntonio:hover:not(.active){
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(31, 212, 7);
+}
+
+.imgLuis:hover:not(.active){
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(31, 212, 7);
 }
 .imgAlien{
     height: 300px;
