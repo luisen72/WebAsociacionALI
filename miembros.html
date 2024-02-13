@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="authors"  content="Luis Enrique Fraile Rodriguez, Ivan de la Torre Moreno, Antonio Martin Fernandez">
-    <link class="icono" rel="icon" href="Imagenes/icono.png">
-    <link rel="stylesheet" href="css/cssAli.css">
+    <script type="text/javascript" src="javaScript/fondo.js"></script>
+    <link class="css" rel="icon" href="Imagenes/icono.png">
+    <link class="css" rel="stylesheet" href="css/cssAli.css">
     <link rel="stylesheet" href="css/miembros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 </head>
 <body>
     <header>
-        <img class="icono" src="Imagenes/icono.png">
+        <a  href="index.html"><img class="css" src="Imagenes/icono.png"></a>
         <h1 id="titulo">Asociación Conspiraciones Mundiales</h1>
         <nav>
             <a href="index.html" target="_self">Inicio</a>
@@ -25,6 +26,7 @@
             <a href="formulario.html" target="_self">¿Quieres unirte?</a>
             <a href="contacto.html" target="_self">Contactanos</a>
         </nav>
+        <button onclick="cambioCss()"><img class="css" id="cambioCss" src="Imagenes/iconoIlu.png"><br><p class="css">Modo Iluminati</p></button>
     </header>
     <main>
         <section class="seccionAlien">
@@ -32,15 +34,15 @@
         </section>       
          <section class="seccionIvan">
             <img src="Imagenes/Piramide.jpeg"  class="imgIvan">
-            <p>Hola soy Ivan................................................</p>
+           
         </section>
         <section class="seccionAntonio">
             <img src="Imagenes/area51.jpg" class="imgAntonio">
-            <p>Hola soy Antonio...............................................</p>
+            
         </section>
         <section class="seccionLuis">
             <img src="Imagenes/ovni.jpeg" class="imgLuis">
-            <p>Hola soy Luis................................................</p>
+           
         </section>
     </main>
         
