@@ -1,0 +1,41 @@
+p{
+    color: white;
+    /*display: inline-block;*/
+}
+                /*Seccion de Ivan*/
+/*Posicionamiento*/
+.seccionPiramide{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.seccionIvan{
+    margin-top:-731px;
+    margin-left:560px;
+    }
+
+.seccionAntonio{
+    margin-top: 140px;
+    margin-left: 200px;
+}
+
+.seccionLuis{
+    margin-top: -458px;
+    margin-left: 867px;
+    }
+/*Tamaño de la imagen*/
+.imgIvan{
+    height:350px;
+    width: 330px;
+}
+.imgAntonio{
+    height:400px;
+    width: 400px;
+}
+
+.imgLuis{
+    height:400px;
+    width: 400px;
+}
+.imgPiramide{
+    
+}
