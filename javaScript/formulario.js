@@ -19,6 +19,7 @@ function enviarFormulario(){
                     var solucion = document.getElementById("otros").value;
                } else if (Motivación[i].selected){
                   solucion = Motivación[i].value
+
                }
             }
             //Un array para el estado
@@ -117,4 +118,5 @@ function enviarFormulario(){
           }
           return "Lunes: " + horadiaL[0]+ horadiaL[1] + horadiaL[2] + horadiaL[3] + "\nMartes: " + horadiaM[0]+ horadiaM[1] + horadiaM[2] + horadiaM[3] + "\nMiercoles: " + horadiam[0]+ horadiam[1] + horadiam[2] + horadiam[3] + "\nJueves: " + horadiaJ[0]+ horadiaJ[1] + horadiaJ[2] + horadiaJ[3] + "\nViernes: " + horadiaV[0] + horadiaV[1] + horadiaV[2] + horadiaV[3] + "\nSabado: " + horadiaS[0]+ horadiaS[1] + horadiaS[2] + horadiaS[3] + "\nDomingo: " + horadiaD[0]+ horadiaD[1] + horadiaD[2] + horadiaD[3]
           
+
         }
