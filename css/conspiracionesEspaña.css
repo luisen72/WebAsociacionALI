@@ -103,7 +103,6 @@ section{
 .box {
   width: 50px;
   height: 110px;
-  
   animation: move 3s alternate  infinite;
   background-image: url("../Imagenes/platillo.png");
   background-size: 70px;
@@ -116,6 +115,7 @@ section{
   0% { offset-distance: 0%; }
   100% { offset-distance: 100%; }
 }
+
 .container2 {
     display: flex;
     justify-content: center;
@@ -143,4 +143,4 @@ section{
     0% { offset-distance: 0%; }
     100% { offset-distance: 100%; }
   }
-  
+
