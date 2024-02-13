@@ -53,7 +53,7 @@ footer {
     background-color: rgb(31, 27, 20);
     color: white;
     height: 50px;
-    margin-top: 25px;
+    margin-top: 69px;
 
 }
 
@@ -104,7 +104,7 @@ section{
   width: 50px;
   height: 110px;
   
-  animation: move 3s  infinite;
+  animation: move 3s alternate  infinite;
   background-image: url("../Imagenes/platillo.png");
   background-size: 70px;
   offset-path: path("m  0 0 v 650 ");
@@ -131,7 +131,7 @@ section{
     width: 100px;
     height: 100px;
     
-    animation: move 3s  infinite;
+    animation: move 3s alternate infinite;
     background-image: url("../Imagenes/volcan.png");
     background-size: 100px;
     offset-path: path("m  0 0 v -620 ");
