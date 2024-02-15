@@ -46,6 +46,11 @@ main{
     width: 200px;
     border-radius: 100%;
     border: 5px solid rgb(80, 80, 80);
+<
+}
+.imgAlien{
+    
+
 }
 .seccionLuis{
     position: absolute;
@@ -75,5 +80,6 @@ main{
 .imgAlien{
     height: 300px;
     width: 250px;
+
 
 }
