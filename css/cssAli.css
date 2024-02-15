@@ -91,7 +91,7 @@ footer {
     background-color: black;
     color: white;
     height: 50px;
-    margin-top: 165px;
+    margin-top: 20px;
 }
 
 footer p {
@@ -140,11 +140,12 @@ footer p {
     border-radius: 10px;
 }
 
-table{
+.registro{
     border:2px rgb(31, 212, 7) solid;
     padding-right: 15px;
     background-color: black;
     box-shadow: 10px 10px 9px 0px lightgreen;
+    margin-bottom: 163px;
 }
 
 .cuadradoFormulario{
