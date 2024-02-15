@@ -1,40 +1,51 @@
-p{
-    color: white;
-    /*display: inline-block;*/
+
+main{
+    margin-top: 850px;
 }
-                /*Seccion de Ivan*/
 /*Posicionamiento*/
 .seccionAlien{
-    margin-top: 300px;
-    margin-left: 200px;
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 688px;
 }
 .seccionIvan{
-    margin-top:-731px;
-    margin-left:560px;
+    position: absolute;
+    display: inline;
+    margin-top:-790px;
+    margin-left:722px;
     }
 
 .seccionAntonio{
-    margin-top: 140px;
-    margin-left: 200px;
+    position: absolute;
+    margin-top: -299px;
+    margin-left: 544px;
 }
 
 .seccionLuis{
-    margin-top: -458px;
-    margin-left: 867px;
+    position: absolute;
+    margin-top: -299px;
+    margin-left: 900px;
     }
 /*Tamaño de la imagen*/
 .imgIvan{
-    height:350px;
-    width: 330px;
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
+    /*border: 5px solid rgb(31, 212, 7);*/
 }
 .imgAntonio{
-    height:400px;
-    width: 400px;
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
 }
 
 .imgLuis{
-    height:400px;
-    width: 400px;
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
 }
 .imgAlien{
     

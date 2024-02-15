@@ -95,8 +95,60 @@
                 <label for="Disponibilidad">Disponibilidad </label>
             </td>
             <td>
-                <input type="" class="cuadradoFormulario">
+                <select name="disponibilidad" id="disponibilidad" class="cuadradoFormulario" oninput="horarioSemana()">
+                    <option class="semana" value="Elige los dias y sus horarios">Elige los dias y sus horarios</option>
+                    <option class="dias" value="Lunes">Lunes</option>
+                    <option class="dias" value="Martes">Martes</option>
+                    <option class="dias" value="Miercoles">Miercoles</option>
+                    <option class="dias" value="Jueves">Jueves</option>
+                    <option class="dias" value="Viernes">Viernes</option>
+                    <option class="dias" value="Sabado">Sabado</option>
+                    <option class="dias" value="Domingo">Domingo</option>
             </td><!--opciones/ se utiliza con multiple-->
+        </tr>
+        <tr>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioL" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioL" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioL" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioL" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioM" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioM" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioM" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioM" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horariom" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horariom" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horariom" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horariom" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioJ" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioJ" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioJ" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioJ" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioV" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioV" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioV" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioV" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioS" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioS" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioS" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioS" type="checkbox" value="22:00-24:00"><label for="22:00-24:00">22:00-24:00</label>
+            </td>
+            <td colspan="2" class="horas" hidden>
+                <input class="horarioD" type="checkbox" value="16:00-18:00, "><label for="16:00-18:00">16:00-18:00</label>
+                <input class="horarioD" type="checkbox" value="18:00-20:00, "><label for="18:00-20:00">18:00-20:00</label>
+                <input class="horarioD" type="checkbox" value="20:00-22:00, "><label for="20:00-22:00">20:00-22:00</label>
+                <input class="horarioD" type="checkbox" value="22:00-24:00, "><label for="22:00-24:00">22:00-24:00</label>
+            </td>
         </tr>
         <tr>
             <td>
@@ -104,7 +156,7 @@
             </td>
                 
             <td>
-                <select name="motivaciones" id="Motivación" class="cuadradoFormulario" >
+                <select name="motivaciones" id="Motivación" class="cuadradoFormulario" oninput="comprobarOtros()" >
                     <option class="opciones" value="Participar en actividades" >Participar en actividades</option>
                     <option class="opciones" value="Preparar actividades">Preparar actividades</option>
                     <option class="opciones" value="Acompañar a un menor">Acompañar a un menor</option>
