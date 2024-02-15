@@ -64,7 +64,7 @@ footer p {
 table {
     text-align: center;
     margin-top: 40px;
-    margin-left: 130px;
+    margin-left: 175px;
     padding-bottom: 50px;
 }
 
@@ -81,8 +81,13 @@ table, td{
 }
 
 tbody {
-    background-color: chocolate;
+    animation: change-color 1.5s linear infinite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    @keyframes change-color {
+        from { background: red; }
+        to {background: green;}
+        
 }
 section{
     margin-left: 200px;
@@ -120,7 +125,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1492px;
+    margin-left: 1600px;
     
     position: absolute;
     
@@ -137,6 +142,7 @@ section{
     offset-path: path("m  0 0 v -620 ");
     margin-top: 620px;
     animation-timing-function: ease-in;
+   
   }
   
   @keyframes move {
