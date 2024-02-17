@@ -1,79 +1,82 @@
 
 main{
-    margin-top: 850px;
+    margin-top: 797px;
 }
 /*Posicionamiento*/
-.seccionAlien{
-    position: absolute;
-    margin-top: -560px;
-    margin-left: 688px;
-}
-.seccionIvan{
-    position: absolute;
-    display: inline;
-    margin-top:-790px;
-    margin-left:722px;
-    }
-
-.seccionAntonio{
-    position: absolute;
-    margin-top: -299px;
-    margin-left: 544px;
+#seccionAlien{
+    position: fixed;
+    margin-top: -500px;
+    margin-left: 802px;
 }
 
-.seccionLuis{
-    position: absolute;
-    margin-top: -299px;
-    margin-left: 900px;
+#seccionIlumin{
+    position: fixed;
+    margin-top: -483px;
+    margin-left: 622px;
+}
+
+#seccionIvan{
+    position: fixed;
+    margin-top:-763px;
+    margin-left:840px;
     }
+
+#seccionAntonio{
+    position: fixed;
+    margin-top: -239px;
+    margin-left: 564px;
+}
+
+#seccionLuis{
+    position: fixed;
+    margin-top: -239px;
+    right:564px;
+    }
+#seccionMrtartaria{
+    position: fixed;
+    margin-top: -609px;
+    margin-left:450px ;
+    background-color: red;
+    z-index: 1;
+}
+#seccionEmpirico{
+    position: fixed;
+    margin-top: -609px;
+    right:450px ;
+}
 /*Tamaño de la imagen*/
-.imgIvan{
+#imgIvan{
     height:200px;
     width: 200px;
     border-radius: 100%;
     border: 5px solid rgb(80, 80, 80);
-    /*border: 5px solid rgb(31, 212, 7);*/
+    
 }
-.imgAntonio{
+#imgAntonio{
     height:200px;
     width: 200px;
     border-radius: 100%;
     border: 5px solid rgb(80, 80, 80);
 }
 
-.imgLuis{
+#imgLuis{
     height:200px;
     width: 200px;
     border-radius: 100%;
     border: 5px solid rgb(80, 80, 80);
+
 }
-.seccionLuis{
-    position: absolute;
-    margin-top: -299px;
-    margin-left: 900px;
-    }
+#imgMrtartaria{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
+}
+#imgEmpirico{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid rgb(80, 80, 80);
+}
+
 /*Tamaño de la imagen*/
-.imgIvan:hover:not(.active){
-    height:200px;
-    width: 200px;
-    border-radius: 100%;
-    border: 5px solid rgb(31, 212, 7);
-}
-.imgAntonio:hover:not(.active){
-    height:200px;
-    width: 200px;
-    border-radius: 100%;
-    border: 5px solid rgb(31, 212, 7);
-}
-
-.imgLuis:hover:not(.active){
-    height:200px;
-    width: 200px;
-    border-radius: 100%;
-    border: 5px solid rgb(31, 212, 7);
-}
-.imgAlien{
-    height: 300px;
-    width: 250px;
-
-}

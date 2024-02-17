@@ -151,3 +151,37 @@ footer p {
     margin: 15px 0;
     text-align: center;
 }
+
+/*Miembros*/
+#imgIvan:hover{
+   
+    border-radius: 100%;
+    border: 5px solid #ff0;
+}
+#imgAntonio:hover{
+   
+    border-radius: 100%;
+    border: 5px solid #ff0;
+}
+
+#imgLuis:hover{
+   
+    border-radius: 100%;
+    border: 5px solid #ff0;
+}
+#imgAlien{
+    height: 300px;
+    width: 250px;
+
+}
+#imgMrtartaria:hover{
+   
+    border-radius: 100%;
+    border: 5px solid #ff0;
+}
+#imgEmpirico:hover{
+  
+    border-radius: 100%;
+    border: 5px solid #ff0;
+
+}
