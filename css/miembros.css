@@ -6,43 +6,54 @@ main{
 #seccionAlien{
     position: fixed;
     margin-top: -500px;
-    margin-left: 802px;
+    margin-left: 820px;
+    z-index: 0;
+
 }
 
 #seccionIlumin{
     position: fixed;
     margin-top: -483px;
-    margin-left: 622px;
+    margin-left: 626px;
+    z-index: 0;
+
 }
 
 #seccionIvan{
     position: fixed;
     margin-top:-763px;
-    margin-left:840px;
+    margin-left:855px;
+    z-index: 1;
+
     }
 
 #seccionAntonio{
     position: fixed;
     margin-top: -239px;
     margin-left: 564px;
+    z-index: 1;
+
 }
 
 #seccionLuis{
     position: fixed;
     margin-top: -239px;
-    right:564px;
+    margin-left:1146px;
+    z-index: 1;
+
     }
 #seccionMrtartaria{
     position: fixed;
     margin-top: -609px;
     margin-left:450px ;
-    background-color: red;
     z-index: 1;
 }
 #seccionEmpirico{
     position: fixed;
     margin-top: -609px;
-    right:450px ;
+    margin-left: 1260px ;
+    z-index: 1;
+
 }
 /*Tamaño de la imagen*/
 #imgIvan{
@@ -80,3 +91,8 @@ main{
 }
 
 /*Tamaño de la imagen*/
+
+.pfont {
+    padding-left: 45px;
+    padding-right: 45px;
+}
